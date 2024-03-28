@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/** ADICIONAR ROTA COM CODIGO DO CLIENTE **/}
         <Route path="/cli/1/home" element={<Home />} />
         <Route path="/dashboard" element={<DashboardPainel />} />
       </Routes>
